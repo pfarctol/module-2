@@ -1,0 +1,41 @@
+body {
+    background-color: teal;;
+}
+
+h1 {
+    color: white;
+    text-align: justify;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+}
+
+nav a {
+    color: aliceblue;
+    padding: 14px 25px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: var(--light);
+}
+
+.content{
+    color: aliceblue;
+
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: yellow;
+}
+
+h6  {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    flex-wrap: wrap;
+    justify-content: center;
+}
